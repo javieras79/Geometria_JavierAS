@@ -1,9 +1,10 @@
+package geometria.src;
 
-public abstract class FiguraGeometrica {
+public abstract class FiguraGeometrica_JAS {
 
 	protected String tipoFigura;
 
-	public FiguraGeometrica(String tipoFigura) {
+	public FiguraGeometrica_JAS(String tipoFigura) {
 		super();
 		this.tipoFigura = tipoFigura;
 	}
