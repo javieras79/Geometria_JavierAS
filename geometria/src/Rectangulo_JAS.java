@@ -18,6 +18,6 @@ public class Rectangulo_JAS extends FiguraGeometrica_JAS {
 	@Override
 	public double perimetro() {
 		return (2 * l1) + (2 * l2);
-	}
+ 	}
 
 }

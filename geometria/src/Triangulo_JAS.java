@@ -22,5 +22,5 @@ public class Triangulo_JAS extends FiguraGeometrica_JAS {
 		double sp;
 		sp = this.perimetro() / 2;
 		return Math.sqrt(sp * (sp-lado1) * (sp-lado2) * (sp-lado3));
-	}
+	 }
 }

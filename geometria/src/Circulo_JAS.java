@@ -23,6 +23,6 @@ public class Circulo_JAS extends FiguraGeometrica_JAS {
 	@Override
 	public double perimetro() {
 		return radio * 2 * PI;
-	}
+	 }
 
 }

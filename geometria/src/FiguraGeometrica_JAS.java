@@ -19,6 +19,6 @@ public abstract class FiguraGeometrica_JAS {
 
 	public void setTipoFigura(String tipoFigura) {
 		this.tipoFigura = tipoFigura;
-	}
+	 }
 
 }
