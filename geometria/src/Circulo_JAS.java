@@ -7,7 +7,11 @@ public class Circulo_JAS extends FiguraGeometrica_JAS {
 	
 	public Circulo_JAS(double r, String tipoFigura) {
 		super(tipoFigura);
+		if(r<0) {
+			radio=(r*r)/2;
+		}else {
 		radio = r;
+		}
 	}
 
 	@Override
